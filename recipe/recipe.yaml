@@ -1,5 +1,5 @@
 context:
-  version: "0.24.0"
+  version: "0.25.0"
 
 package:
   name: ironclaw
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/nearai/ironclaw/archive/refs/tags/ironclaw-v${{ version }}.tar.gz
-  sha256: b920af1ab1d2c4753cd275b0813b958df7db650de2c951339a649f733e9a132b
+  sha256: 039da1591c71dee723d987dc785a9927ae5eda86f708f3f7990f95cb98397284
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols

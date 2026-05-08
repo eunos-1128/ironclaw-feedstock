@@ -1,5 +1,5 @@
 context:
-  version: "0.27.0"
+  version: "0.28.0"
 
 package:
   name: ironclaw
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/nearai/ironclaw/archive/refs/tags/ironclaw-v${{ version }}.tar.gz
-  sha256: 8060d480f9470db1d850f2b6573693df0df76b61139ae40c37eba8ef1b8c2dd3
+  sha256: a2e6d6e6937cccc3518395d365e45da433a2f0db80f565ead03afc7ef633ab01
 
 build:
   number: 0

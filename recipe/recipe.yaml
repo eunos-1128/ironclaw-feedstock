@@ -10,7 +10,7 @@ source:
   sha256: 5ef57be870ca678cc5fbd6237416edd2a298e88be9ec977ccaadb65766902a4c
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
@@ -42,7 +42,6 @@ requirements:
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
     - cargo-auditable
-    - python
 
 tests:
   - script:
